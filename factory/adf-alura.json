@@ -1,0 +1,9 @@
+{
+	"name": "adf-alura",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "876ff571-d517-44fd-8b5d-b52c1f01ea30",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+	}
+}
