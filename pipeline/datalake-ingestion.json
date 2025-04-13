@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/rm358996@fiap.com.br/ADB_ADF_Alura/notebooks/InboundToBronze"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricksAlura",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "ingestao-camada-silver",
@@ -33,7 +40,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/rm358996@fiap.com.br/ADB_ADF_Alura/notebooks/BronzeToSilver"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricksAlura",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
